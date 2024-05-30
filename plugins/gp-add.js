@@ -40,7 +40,7 @@ let handler = async (m, { conn, text, participants }) => {
         const content = getBinaryNodeChild(user, 'add_request')
         const invite_code = content.attrs.code
         const invite_code_exp = content.attrs.expiration
-        let teks = `✳️ Al usuario @${jid.split('@')[0]} solo lo pueden agregar sus contactos :'v `
+        let teks = `✳️ To user @${jid.split('@')[0]} Only your contacts can add you :'v `
         m.reply(teks, null, {
             mentions: conn.parseMention(teks)
         })

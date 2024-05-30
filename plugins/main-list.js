@@ -30,8 +30,8 @@ break;
         case 'botmenu':
           lkr = `
 ╭─────────────────⍟
-┃  Xlicon 𝘽𝙊𝙏 𝙈𝙀𝙉𝙐  
-╰───Xlicon─────────⍟   
+┃  Shotgun_Suppressor 𝘽𝙊𝙏 𝙈𝙀𝙉𝙐  
+╰───Shotgun_Suppressor─────────⍟   
 
 ┏━━━ʕ•㉨•ʔ━━━
 ┃➣🗂️ _${usedPrefix}gita_
@@ -52,8 +52,8 @@ break;
         case 'ownermenu':
           lkr = `
 ╭─────────────────⍟
-┃ Xlicon 𝙊𝙒𝙉𝙀𝙍 𝙈𝙀𝙉𝙐  
-╰───Xlicon─────────⍟
+┃ Shotgun_Suppressor 𝙊𝙒𝙉𝙀𝙍 𝙈𝙀𝙉𝙐  
+╰───Shotgun_Suppressor─────────⍟
 
 ┏━━━ʕ•㉨•ʔ━━━┓
 ┃➣📁 _${usedPrefix}banchat_
@@ -73,8 +73,8 @@ break;
           case 'groupmenu':
           lkr = `
 ╭─────────────────⍟
-┃ Xlicon 𝙂𝙍𝙊𝙐𝙋 𝙈𝙀𝙉𝙐 
-╰───Xlicon─────────⍟
+┃ Shotgun_Suppressor 𝙂𝙍𝙊𝙐𝙋 𝙈𝙀𝙉𝙐 
+╰───Shotgun_Suppressor─────────⍟
 
 ┏━━━ʕ•㉨•ʔ━━━┓🤖
 ┃➣👾_${usedPrefix}kick *<@tag>*_
@@ -99,8 +99,8 @@ break;
             case 'dlmenu' :
           lkr = `
 ╭─────────────────⍟
-┃ Xlicon 𝘿𝙇📱 𝙈𝙀𝙉𝙐 
-╰───Xlicon─────────⍟
+┃ Shotgun_Suppressor 𝘿𝙇📱 𝙈𝙀𝙉𝙐 
+╰───Shotgun_Suppressor─────────⍟
 
 ┏━━━ʕ•㉨•ʔ━━━┓
 ┃➣📡 _${usedPrefix}play_
@@ -125,8 +125,8 @@ break;
           case 'economymenu':
           lkr = `
 ╭─────────────────⍟
-┃Xlicon 𝙀𝘾𝙊𝙉𝙊𝙈𝙔 
-╰───Xlicon─────────⍟
+┃Shotgun_Suppressor 𝙀𝘾𝙊𝙉𝙊𝙈𝙔 
+╰───Shotgun_Suppressor─────────⍟
 
 ┏━━━ʕ•㉨•ʔ━━━┓
 ┃➣👑 _${usedPrefix}claim/daily_
@@ -151,8 +151,8 @@ break;
           case 'funmenu':
           lkr = `
 ╭─────────────────⍟
-┃ Xlicon 𝙁𝙐𝙉 𝙈𝙀𝙉𝙐
-╰───Xlicon─────────⍟
+┃ Shotgun_Suppressor 𝙁𝙐𝙉 𝙈𝙀𝙉𝙐
+╰───Shotgun_Suppressor─────────⍟
 
 ┏━━━ʕ•㉨•ʔ━━━┓
 ┃➣👻 _${usedPrefix}character_
@@ -173,8 +173,8 @@ break;
           case 'animemenu':
           lkr = `
 ╭─────────────────⍟
-┃ Xlicon 𝐴𝑁𝐼𝑀𝐸 𝑀𝐸𝑁𝑈
-╰───Xlicon─────────⍟
+┃ Shotgun_Suppressor 𝐴𝑁𝐼𝑀𝐸 𝑀𝐸𝑁𝑈
+╰───Shotgun_Suppressor─────────⍟
 
 ┏━━━ʕ•㉨•ʔ━━━┓
 ┃➣❄️ _${usedPrefix}waifu_
@@ -219,8 +219,8 @@ break;
           case 'gamemenu':
           lkr = `
 ╭─────────────────⍟
-┃ Xlicon 𝙂𝘼𝙈𝙀 𝙈𝙀𝙉𝙐 
-╰───Xlicon─────────⍟
+┃ Shotgun_Suppressor 𝙂𝘼𝙈𝙀 𝙈𝙀𝙉𝙐 
+╰───Shotgun_Suppressor─────────⍟
 
 ┏━━━ʕ•㉨•ʔ━━━┓
 ┃➣🎮 _${usedPrefix}tictactoe_
@@ -237,8 +237,8 @@ break;
           case 'stickermenu':
           lkr = `
 ╭─────────────────⍟
-┃ Xlicon 𝙎𝙏𝙄𝘾𝙆𝙀𝙍 𝙈𝙀𝙉𝙐
-╰───Xlicon─────────⍟
+┃ Shotgun_Suppressor 𝙎𝙏𝙄𝘾𝙆𝙀𝙍 𝙈𝙀𝙉𝙐
+╰───Shotgun_Suppressor─────────⍟
 
 ┏━━━ʕ•㉨•ʔ━━━┓
 ┃➣👾 _${usedPrefix}sticker_
@@ -306,7 +306,7 @@ break;
 ┃⬡▸ .pokedex <pokemon>
 ┃⬡▸ .trace
 >-----------------------<
-┃ -MADE BY XLICON -TEAM
+┃ -MADE BY Shotgun_Suppressor -TEAM
 >-----------------------<
 ╰─────────────────⦿
 `; 
@@ -318,8 +318,8 @@ break;
           case 'toolmenu':
           lkr = `
 ╭─────────────────⍟
-┃ Xlicon 𝙏𝙊𝙊𝙇𝙎 𝙈𝙀𝙉𝙐
-╰───Xlicon─────────⍟
+┃ Shotgun_Suppressor 𝙏𝙊𝙊𝙇𝙎 𝙈𝙀𝙉𝙐
+╰───Shotgun_Suppressor─────────⍟
 
 ┏━━━ʕ•㉨•ʔ━━━┓
 ┃➣🧰 _${usedPrefix}autosticker_

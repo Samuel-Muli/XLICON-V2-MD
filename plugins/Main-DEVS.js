@@ -1,5 +1,5 @@
 var handler = async (m, { conn, command, args, usedPrefix, DevMode }) => {
-  let owners = '233508488192 - *ABRAHAM*'; // Define owners variable
+  let owners = '254705244235 - *Samuel*'; // Define owners variable
 
   let fkontak = {
     "key": {
@@ -18,12 +18,9 @@ var handler = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 
   let pp = './Assets/XLICON-V2.jpg';
 
-  const cat = `*_XLICON-V2_*
+  const cat = `*_Shotgun_Suppressor_*
 
-*_—🔰 𝐗𝐥𝐢𝐜𝐨𝐧 𝐯𝟐  𝐃𝐄𝐕 𝟏 wa.me/+233533763772 %dont_contact_me%_*
-
-*_—🔰 𝐗𝐥𝐢𝐜𝐨𝐧 𝐯𝟐  𝐃𝐄𝐕 2 wa.me/+923184070915_*
-*---------------------*
+*_—🔰 Shotgun_Suppressor  𝐃𝐄𝐕 𝟏 wa.me/+254705244235
 
 *_ᴛʜᴇ ᴍᴏᴅᴇʀᴀᴛᴏʀ_*
 *${owners}*`;

@@ -19,7 +19,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 handler.help = ['antilink del']
 handler.tags = ['group']
 handler.command = /^(on|off)?\s*antilinkdel$/i
-handler.group = true
+//handler.group = true
 handler.admin = true
 handler.botAdmin = true
 

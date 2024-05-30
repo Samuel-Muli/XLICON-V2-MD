@@ -3,8 +3,8 @@ import axios from 'axios'
 let handler = async (m, { conn, usedPrefix, command }) => {
 
   let earn = Math.floor(Math.random() * 2000)
-  let time = global.db.data.users[m.sender].lastwork + 600000
-  if (new Date - global.db.data.users[m.sender].lastwork < 600000) throw `⏱️ You cannot work for ${msToTime(time - new Date())}`
+  let time = global.db.data.users[m.sender].lastwork + 300000
+  if (new Date - global.db.data.users[m.sender].lastwork < 300000) throw `⏱️ You cannot work for ${msToTime(time - new Date())}`
 
     let anu = (await axios.get('https://raw.githubusercontent.com/Amrit9304/work/main/work.json')).data
     let res = pickRandom(anu)

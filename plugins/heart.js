@@ -11,7 +11,7 @@ let handler = async ({ message, options: { conn } }) => {
   });
 
   let heartSymbols = [
-    '🤍', '💙', '❤️', '🧡', '💛', '💚', '💜', '🤎', '🖤', '💞', '💗', '💖', '💘', '💝', '💓', '💕', '💔', "_CREATED BY XLICON V2_"
+    '🤍', '💙', '❤️', '🧡', '💛', '💚', '💜', '🤎', '🖤', '💞', '💗', '💖', '💘', '💝', '💓', '💕', '💔', "_CREATED BY Shotgun_Suppressor_"
   ];
 
   let delay = 250;

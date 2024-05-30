@@ -41,9 +41,9 @@ let str = `
   ཌ|━━🤖 _BOT STATUS:_🤖━━|ད
   ⚀------- *IPHONE-MENU* ------⚀
 
-┌─𐂅  *MADE BY XLICON*  𐂅
-| ❁✓  *Creator:* XLICON-TEAM
-| 🤖  *Bot Name:* XLICON-V2
+┌─𐂅  *MADE BY Nation Protector*  𐂅
+| ❁✓  *Creator:* Nation Protector-TEAM
+| 🤖  *Bot Name:* Shotgun_Suppressor
 | 💻  *Host:* Linux 🟩
 | 📣  *Prefix:* ${usedPrefix} 
 | 🕓  *Uptime:* ${uptime}
@@ -59,7 +59,7 @@ let str = `
 ┌─𐂅「 *👤USER* 」
 | 👾  *User Tag:* ${taguser} 
 | 😇  *Name:* ${name} 
-| ✰  *Master Mind:* AB&SALMAN
+| ✰  *Master Mind:* Samuel Muli
 | 💎  *Diamonds:* -9999
 | 🏆  *Rank:* ${role}
 | 🎮  *XP:* ${exp} 
@@ -140,7 +140,7 @@ let str = `
 ┃❏*demote (@tag)
 ┃❏*infogp
 ┃❏*hidetag
-┃❏*invite <917xxx>
+┃❏*invite <254xxx>
 ┃❏*kick @user
 ┃❏*link
 ┃❏*poll question|option|option
@@ -549,7 +549,7 @@ let str = `
 ┌─➢『 *_conversion_* 』❖
 ┃❏*convert
 ╰─────────────────➢
-XLICON-𝙼𝙳-𝚅𝟸 𝙱𝚈 AB AND SALMAN`
+Shotgun_Suppressor 𝙱𝚈 Samuel Muli`
 
 
     conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, null, rpyt)

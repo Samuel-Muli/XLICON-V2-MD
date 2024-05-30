@@ -1,10 +1,10 @@
 {
-  "name": "whatsapp-bot (X-BOT)",
-  "description": " Whatsapp bot.",
+  "name": "Shotgun_Suppressor-bot",
+  "description": " Shotgun_Suppressor bot.",
   "keywords": [
-    "whatsapp bot"
+    "Shotgun_Suppressor bot"
   ],
-  "repository": "https://github.com/salmanytofficial/XLICON-V2-MD/main",
+  "repository": "https://github.com/Samuel-Muli/XLICON-V2-MD/main",
   "stack": "container",
   "env": {
     "DATABASE_URL": {

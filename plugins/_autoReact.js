@@ -1,10 +1,9 @@
 const reactions = [
-    ['923184070915@s.whatsapp.net', '🔥'],
-    ['923184474176@s.whatsapp.net', '🍁']
-    ['233508488192@s.whatsapp.net', '👨‍💻']
+    ['254705244235@s.whatsapp.net', '🦜'],
+    ['254708192575@s.whatsapp.net', '🍁']
+   
 ];
 
-];
 
 /* 
 Created by mznking ☠️

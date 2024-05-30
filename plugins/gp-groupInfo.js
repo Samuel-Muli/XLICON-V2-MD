@@ -41,5 +41,6 @@ handler.help = ['infogp']
 handler.tags = ['group']
 handler.command = ['infogrupo', 'groupinfo', 'infogp'] 
 handler.group = true
+handler.owner = true
 
 export default handler

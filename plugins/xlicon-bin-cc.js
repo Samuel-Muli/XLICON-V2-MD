@@ -16,7 +16,7 @@ let handler = async function (m, { conn, text, usedPrefix }) {
 🏁| FLAG: ${data.country.emoji}
 🏦| BANK: ${data.bank.name}
 
-> *MADE BY XLICON TEAM*
+> *MADE BY Shotgun_Suppressor TEAM*
 `;
         m.reply(formattedResult.trim());
     }).catch(error => {

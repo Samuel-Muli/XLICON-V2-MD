@@ -1,8 +1,8 @@
 
 let ro = 3000
 let handler = async (m, { conn, usedPrefix, command}) => {
-    let time = global.db.data.users[m.sender].lastrob + 7200000
-    if (new Date - global.db.data.users[m.sender].lastrob < 7200000) throw `⏱️¡Hey! wait *${msToTime(time - new Date())}* to steal again`
+    let time = global.db.data.users[m.sender].lastrob + 1800000
+    if (new Date - global.db.data.users[m.sender].lastrob < 1800000) throw `⏱️¡Hey! wait *${msToTime(time - new Date())}* to suppress the nation again again`
     let who
     if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false
     else who = m.chat
@@ -10,7 +10,7 @@ let handler = async (m, { conn, usedPrefix, command}) => {
     if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
     let users = global.db.data.users[who]
     let rob = Math.floor(Math.random() * ro)
-    if (users.exp < rob) return m.reply(`🔖 @${who.split`@`[0]} has less than *${ro} xp*\nDon't steal from a rotten":`, null, { mentions: [who] })    
+    if (users.exp < rob) return m.reply(`🔖 @${who.split`@`[0]} has less than *${ro} xp*\nDon't steal from a poor":`, null, { mentions: [who] })    
    global.db.data.users[m.sender].exp += rob
    global.db.data.users[who].exp -= rob
   
@@ -22,7 +22,7 @@ let handler = async (m, { conn, usedPrefix, command}) => {
 
   handler.help = ['rob']
   handler.tags = ['economy']
-  handler.command = ['robar', 'rob']
+  handler.command = ['robber', 'rob']
   
   export default handler
   

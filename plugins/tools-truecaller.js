@@ -25,7 +25,7 @@ let handler = async (m, { conn, text }) => {
     m.react("⏰")
 
 
-    json.creator = 'XLICON';
+    json.creator = 'Shotgun_Suppressor';
 
     let milf = '';
     for (let prop in json) {

@@ -50,7 +50,7 @@ const resolveRoulette = (chatId, conn) => {
 };
 
 const runRoulette = (chatId, conn) => {
-    const delay = 10 * 1000; // 30 seconds
+    const delay = 100 * 1000; // 30 seconds
 
     setTimeout(() => {
         resolveRoulette(chatId, conn);
@@ -68,8 +68,8 @@ const betRoulette = (user, chatId, amount, color) => {
     if (users.credit < amount) {
         throw '✳️ You do not have enough gold!';
     }
-    if (amount > 100000) {
-        throw `🟥 You can't bet gold more than 100000`;
+    if (amount > 10000000) {
+        throw `🟥 You can't bet gold more than 10000000`;
     }
 
     if (!rouletteBets[chatId]) {

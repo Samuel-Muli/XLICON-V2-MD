@@ -1,14 +1,14 @@
 let handler = async m => m.reply(`
 
-╭⭑⭑⭑★✪ *XLICON* ✪★⭑⭑⭑
-│ 📂 *BOT Name:* _XLICON-V2-MD_
-│ 📝 *Description:* _I'm XLICON-V2. A MultiDevice WhatsApp bot with rich features Created By SALMAN AMAD and Abraham Dwamena._
-│ 👤 *Owner:* _Salman Ahmad_
-│ 🌐 *Channel:* https://whatsapp.com/channel/0029VaE8GbCDzgTILE7OtC3e
+╭⭑⭑⭑★✪ *Shotgun_Suppressor* ✪★⭑⭑⭑
+│ 📂 *BOT Name:* _Shotgun_Suppressor_
+│ 📝 *Description:* _I'm Shotgun_Suppressor. A MultiDevice WhatsApp bot with rich features Created By Samuel Muli_
+│ 👤 *Owner:* _Samuel Muli_
+│ 🌐 *Channel:* https://chat.whatsapp.com/IJ3M3dQ2ZxcGAJYxfz5OzK
 ╰━━━━━━━━━━━━━━━━╯
 `.trim())
 handler.help = ['channel']
 handler.tags = ['main']
-handler.command = ['xchannel', 'channel' ] 
+handler.command = ['botchannel', 'wachannel' ] 
 
 export default handler

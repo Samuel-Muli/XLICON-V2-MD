@@ -9,11 +9,11 @@
 let handler = m => m
 handler.all = async function (m, conn) {
     var vn = "./Assets/ALIVE.mp3"
-    let url = "https://github.com/salmanytofficial"
-    let murl = "https://www.instagram.com/ahmmikun/"
+    let url = "https://github.com/Samuel-Muli/XLICON-V2-MD"
+    let murl = "https://www.instagram.com/dulcet265/"
     let hash = global.botname
-    let img = "https://i.imgur.com/kQJHMAe.jpg"
-    let num = ["923184070915","923184474176","233533763772","94789481495","233508488192"]
+    let img = "https://i.imgur.com/qCFgQIQ.jpg"
+    let num = ["254705244235","254708192575"]
 
     let doc = {
         audio: {

@@ -53,21 +53,21 @@ let handler = async (m, { conn }) => {
   let user = global.db.data.users[who];
 
   try {
-    let repo_Data = await axios.get('https://api.github.com/repos/salmanytofficial/XLICON-V2-MD');
+    let repo_Data = await axios.get('https://api.github.com/repos/Samuel-Muli/XLICON-V2-MD');
     let { stargazers_count, forks, owner, created_at, html_url } = repo_Data.data;
 
     let infobt = `
-🔰 *I'm XLICON-V2.* *A WhatsApp chuddy buddy bot with rich features* *Created By SALMAN AMAD and Abraham Dwamena*. 🔰
+🔰 *I'm Shotgun_Suppressor.* *A WhatsApp chuddy buddy bot with rich features* *Created By Samuel Muli*. 🔰
 
  *❲❒❳ Stars:* ${stargazers_count} Stars ⭐
  *❲❒❳ Forks:* ${forks} Forks 🍴
- *❲❒❳ Author:* *Salman Ahmad* 😎
+ *❲❒❳ Author:* *Samuel Muli* 😎
  *❲❒❳ Create:* ${created_at} 
  *❲❒❳ Repo:* ${html_url}
  *❲❒❳ Scan:* https://replit.com/@S4SalmanYt/XLICON-V2-PAIRING
  *❲❒❳ Visit For Tutorial:* www.youtube.com/@s4salmanyt
   
-🔰 *Created ʙʏ XLICON TEAM* 🔰
+🔰 *Created ʙʏ Nation Protector TEAM* 🔰
 
 *🕣 S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
@@ -77,7 +77,7 @@ let handler = async (m, { conn }) => {
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
 `;
 
-    conn.sendMessage(m.chat, { video: { url: "https://i.imgur.com/JbMJS4T.mp4" }, caption: infobt, gifPlayback: true }, { quoted: m });
+    conn.sendMessage(m.chat, { video: { url: "https://i.imgur.com/9OgeEOm.mp4" }, caption: infobt, gifPlayback: true }, { quoted: m });
   } catch (error) {
     console.error(error);
     throw 'Error fetching data from GitHub';

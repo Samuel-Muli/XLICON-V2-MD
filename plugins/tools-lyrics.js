@@ -15,6 +15,7 @@ ${json.lyrics}`, m)
 m.react(done)
 } catch (e) {
 	m.react(error)
+  m.reply('Lyrics not found')
 	} 
 }
 handler.help = ['lyrics']

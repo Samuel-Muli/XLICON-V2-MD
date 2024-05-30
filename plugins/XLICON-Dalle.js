@@ -3,7 +3,7 @@ import uploadImage from '../lib/uploadImage.js'
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   if (!text)
-    throw `*This command generates images from text prompts*\n\n*𝙴xample usage*\n*◉ ${usedPrefix + command} Beautiful anime girl*\n*◉ ${usedPrefix + command} Elon Musk in pink output*`
+    throw `*This command generates images from text prompts*\n\n*𝙴xample usage*\n*◉ ${usedPrefix + command} a tall petite chocolate black girl wearing black skirt and black shirt, beautiful, long black hair, alluring, delicate, flirty charming smile, photography, outdoors, field, portrait, 4k, high resolution, real*\n*◉ ${usedPrefix + command} Elon Musk in pink output*`
 
   try {
     m.reply('*Please wait, generating images...*')

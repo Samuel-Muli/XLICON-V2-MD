@@ -46,24 +46,23 @@ let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './XLICON.jpg')
 let user = global.db.data.users[who]
   
 let infobt = `
-⭐ *INFO XLICON-V2 BOT* ⭐
+⭐ *INFO Shotgun_Suppressor BOT* ⭐
 
   ╭───•✧✧•───╮
   *≡*. 
 │ ➫「 *Developer* 」
-│ ➫ *Name    :* Salman Ahmad & Abraham Dwamena
-│ ➫ *Place   :* Pakistan & Ghana
+│ ➫ *Name    :* Samuel Muli
+│ ➫ *Place   :* Kenya
 │ ➫ *Gender  :*  ᴍᴀʟᴇ
-│ ➫ *Age     :* _18_ and _19_
-│ ➫ *Phone   :* wa.me/923184070915 & wa.me/+233533763772
-│ ➫ *YouTube :* youtube.com/@s4salmanyt 
-│ ➫ *GitHub  :* github.com/salmanytofficial
-│ ➫ *IG ID   :* instagram.com/ahmmikun
-│ ➫ *Channel* :https://whatsapp.com/channel/0029VaE8GbCDzgTILE7OtC3e
+│ ➫ *Age     :* _24_
+│ ➫ *Phone   :* wa.me/254705244235
+│ ➫ *YouTube :* youtube.com/ 
+│ ➫ *GitHub  :* github.com/Samuel-Muli
+│ ➫ *IG ID   :* https://www.instagram.com/dulcet265
+│ ➫ *Channel* :https://chat.whatsapp.com/IJ3M3dQ2ZxcGAJYxfz5OzK
 │ ➫ *Status  :* Debugging
  Code._
-© XLICON-V2 BY Salman Ahmad and AB-Dev
-
+© Shotgun_Suppressor BY Samuel Muli
 ⚡ *STATE* ⚡
 ➫ *${groupsIn.length}* GROUP CHATS
 ➫  *${groupsIn.length}* united groups

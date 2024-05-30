@@ -36,7 +36,7 @@ let greeting = ucapan()
 let quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = ` *☑️ XLICON-V2 ☑️*
+let str = ` *☑️ Shotgun_Suppressor ☑️*
 
 
 ╭⭑⭑⭑★✪ *LOGO 1* ✪★⭑⭑⭑ 
@@ -57,7 +57,7 @@ let str = ` *☑️ XLICON-V2 ☑️*
 │⬡▸
 │ *${usedPrefix}logo ғᴏʀ logo ᴄᴏᴍᴍᴀɴᴅs*
 │ Please *${greeting}*
-│  *MADE BY XLICON TEAM*
+│  *MADE BY Shotgun_Suppressor TEAM*
 ╰━━━━━━━━━━━━━━━━━━╯
 📚 *_Quote of the day: ${quote}_* 📚
 `
