@@ -1,7 +1,7 @@
 import axios from 'axios'
 let split = '|'
 let handler = async (m, { conn, args: [effect], text: txt, usedPrefix, command, name }) => {
-if (!effect) throw '*¿correct use of command?*\n—◉ _#logo (efect) (text)_\n*𝙴xample:*\n—◉ _#logo2 3d-deep-sea-metal Shotgun_Suppressor_\n\n*[❗]  when two text is needed, use:*\n—◉ _#logo2 (efect) (text1|text2)_\n*𝙴xample:*\n—◉ _#logo2 Wolf-Logo-Galaxy Xlicon-v2|Bot\n\n*<𝑳𝑰𝑺𝑻  𝑬𝑭𝑬𝑪𝑻𝑺/>*\n\n° ඬ⃟📝 #logo2 ' + effects.map(v => v.title).join('\n° ඬ⃟📝 #logo2 *')
+if (!effect) throw '*¿correct use of command?*\n—◉ _#logo (efect) (text)_\n*𝙴xample:*\n—◉ _#logo2 3d-deep-sea-metal Shotgun_Suppressor_\n\n*[❗]  when two text is needed, use:*\n—◉ _#logo2 (efect) (text1|text2)_\n*𝙴xample:*\n—◉ _#logo2 Wolf-Logo-Galaxy Nation Protector-v2|Bot\n\n*<𝑳𝑰𝑺𝑻  𝑬𝑭𝑬𝑪𝑻𝑺/>*\n\n° ඬ⃟📝 #logo2 ' + effects.map(v => v.title).join('\n° ඬ⃟📝 #logo2 *')
 effect = effect.toLowerCase()
 if (!effects.find(v => (new RegExp(v.title, 'gi')).test(effect))) throw `*this ${effect} can not find this*`
 let text = txt.replace(new RegExp(effect, 'gi'), '').trimStart()
