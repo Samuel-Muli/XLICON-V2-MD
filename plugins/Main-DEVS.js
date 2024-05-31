@@ -20,7 +20,7 @@ var handler = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 
   const cat = `*_Shotgun_Suppressor_*
 
-*_—🔰 Shotgun_Suppressor  𝐃𝐄𝐕 𝟏 wa.me/+254705244235
+*_—🔰 Shotgun_Suppressor  \n𝐃𝐄𝐕 𝟏 \nwa.me/+254705244235
 
 *_ᴛʜᴇ ᴍᴏᴅᴇʀᴀᴛᴏʀ_*
 *${owners}*`;

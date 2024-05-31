@@ -20,6 +20,6 @@ handler.all = async function (m) {
 
 
 
-	m.reply('This is Shotgun Suppressor bot\n By Samuel Muli\n For any info contact my owner')
+	m.reply(' ')
 } 
 export default handler
