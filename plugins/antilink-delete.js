@@ -10,9 +10,9 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   } else if (command === 'antilinkdel' && antilinkdel) {
     m.messages.forEach(async (message) => {
       if (message.text && message.text.match(/\bhttps?:\/\/|www\./i)) {
-        conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: (link unavailable), participant: message.participant }})
+        conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: (link unavailable), participant; message.participant }})
       }
-    })
+    }
   }
 }
 
