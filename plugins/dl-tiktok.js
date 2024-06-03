@@ -13,14 +13,14 @@ const handler = async (m, {conn, text, args, usedPrefix, command}) => {
   try {
     m.react(rwait)
     const dataFn = await conn.getFile(`${CFROSAPI}/api/tiktokv2?url=${args[0]}`);
-    const desc1n = `*_|©Shotgun_Suppressor|_*`;
+    const desc1n = `*_|©Shotgun_Suppressor-MD-V2|_*`;
     await conn.sendMessage(m.chat, {video: dataFn.data, caption: desc1n}, {quoted: m});
  m.react(done)
   } catch (ee1) {
 
   try {
     //const aa = {quoted: m, userJid: conn.user.jid};
-    //const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: texto, contextInfo: {externalAdReply: {title: 'XLICON-𝘉𝘖𝘛-𝘔𝘋', body: null, thumbnail: imagen1, sourceUrl: 'https://github.com/salmanytofficial/XLICON-V2-MD'}, mentionedJid: [m.sender]}}}, aa);
+    //const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: texto, contextInfo: {externalAdReply: {title: '𝘗𝘙𝘐𝘕𝘊𝘌-𝘉𝘖𝘛-𝘔𝘋', body: null, thumbnail: imagen1, sourceUrl: 'https://github.com/PRINCE-GDS/THE-PRINCE-BOT'}, mentionedJid: [m.sender]}}}, aa);
     //await conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id, mentions: [m.sender]});
     const dataF = await tiktok.v1(args[0]);
     // let desc1 =  `*𝙽𝙸𝙲𝙺𝙽𝙰𝙼𝙴:* ${dataF.nickname || 'Indefinido'}`
